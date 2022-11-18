@@ -1,0 +1,24 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Admin Commands For All Games", "Midnight")
+ 
+--Admin
+local Admin = Window:NewTab("Admin")
+local AdminSection = Admin:NewSection("List")
+AdminSection:NewButton("InfiniteYeld", "Infinite Yeld Admin", function()
+    print("Clicked")
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+ 
+AdminSection:NewButton("Fatest Admin", "700+ Commands To Tipe Press ;", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+end)
+ 
+AdminSection:NewButton("Homebrewe Admin", "Very Op And Fe", function()
+    print("Clicked")
+    _G.CustomUI = false
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
+end)
+ 
+ 
+ 
